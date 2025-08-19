@@ -1,65 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Krtech CBO</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
   <style>
-    body { margin:0; font-family:'Poppins',sans-serif; color:#333; line-height:1.6; background:#f9f9f9; }
-    .navbar, footer { background:#2c5530; color:#fff; padding:1rem 2rem; text-align:center; }
-    .navbar a, footer a { color:#f0c808; text-decoration:none; margin:0 0.5rem; }
+    body { margin:0;font-family:'Poppins',sans-serif;color:#333;line-height:1.6;background:#f9f9f9; }
+    .navbar, footer { background:#2c5530; color:#fff; text-align:center; padding:1rem; }
+    .navbar a, footer a { color:#f0c808; margin:0 0.5rem; text-decoration:none; }
     .navbar a:hover, footer a:hover { text-decoration:underline; }
     section { padding:3rem 2rem; max-width:1100px; margin:auto; }
     .hero { background:url('https://images.unsplash.com/photo-1582721752700-51a9d7d8bc84?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat; color:white; text-align:center; padding:5rem 1rem; }
     .hero h2 { font-size:2.5rem; margin-bottom:1rem; }
-    .btn { background:#f0c808; color:#2c5530; padding:0.8rem 1.5rem; border-radius:5px; font-weight:600; transition:background 0.3s; }
+    .btn { background:#f0c808; color:#2c5530; padding:0.8rem 1.5rem; border-radius:5px; font-weight:600; transition:0.3s; }
     .btn:hover { background:#ddb507; }
-    .about, .programs, .contact { background:#fff; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.1); margin-bottom:2rem; }
     .programs-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:1.5rem; }
-    .card { background:#f9f9f9; padding:1.5rem; text-align:center; border-radius:8px; transition:transform 0.3s; }
+    .card { background:#fff; padding:1.5rem; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.1); text-align:center; transition:0.3s; }
     .card:hover { transform:translateY(-5px); }
     .contact-wrapper { display:flex; flex-wrap:wrap; gap:2rem; }
-    .contact-form, .contact-info { flex:1; min-width:300px; background:#f9f9f9; padding:1.5rem; border-radius:8px; }
+    .contact-form, .contact-info { flex:1; min-width:300px; background:#fff; padding:1.5rem; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.1); }
     .contact-form input, .contact-form textarea { width:100%; padding:0.8rem; border:1px solid #ccc; border-radius:6px; margin-bottom:1rem; }
-    .contact-form button { background:#2c5530; color:#fff; padding:0.8rem 1.5rem; border:none; border-radius:6px; cursor:pointer; font-weight:600; }
+    .contact-form button { background:#2c5530; color:#fff; padding:0.8rem 1.5rem; border:none; border-radius:6px; cursor:pointer; font-weight:600; transition:0.3s; }
     .contact-form button:hover { background:#1e3e22; }
     .map-container { margin-top:1rem; border-radius:8px; overflow:hidden; box-shadow:0 2px 6px rgba(0,0,0,0.2); }
-    .whatsapp-float { position:fixed; width:60px; height:60px; bottom:20px; right:20px; background:#25D366; color:#fff; border-radius:50%; text-align:center; font-size:30px; box-shadow:2px 2px 5px rgba(0,0,0,0.3); z-index:1000; transition:transform 0.2s; }
+    .whatsapp-float { position:fixed; width:60px; height:60px; bottom:20px; right:20px; background:#25D366; color:#fff; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:30px; box-shadow:2px 2px 5px rgba(0,0,0,0.3); transition:0.2s; z-index:1000; }
     .whatsapp-float:hover { transform:scale(1.1); background:#1ebe5b; }
   </style>
 </head>
 <body>
 
-  <nav class="navbar">
-    <a href="#home">Home</a> | 
-    <a href="#about">About</a> | 
-    <a href="#programs">Programs</a> | 
-    <a href="#contact">Contact</a>
-  </nav>
+  <div class="navbar">
+    <a href="#home">Home</a> | <a href="#about">About</a> | <a href="#programs">Programs</a> | <a href="#contact">Contact</a>
+  </div>
 
   <section id="home" class="hero">
     <h2>Empowering Communities</h2>
-    <p>Promoting sustainable livestock management for a better future</p>
+    <p>Promoting sustainable livestock management in Maralal, Samburu County.</p>
     <a href="#about" class="btn">Learn More</a>
   </section>
 
-  <section id="about" class="about">
+  <section id="about">
     <h2>About Us</h2>
-    <p>Krtech CBO is a community-based organization dedicated to improving livestock management, enhancing food security, and empowering local communities through innovative and sustainable practices in Maralal Town.</p>
+    <p>Krtech CBO is a community-based organization working in Maralal to enhance livestock management, improve food security, and empower local communities through training, innovation, and sustainable practices.</p>
   </section>
 
-  <section id="programs" class="programs">
+  <section id="programs">
     <h2>Our Programs</h2>
     <div class="programs-grid">
       <div class="card"><i class="fa-solid fa-cow"></i><h3>Livestock Health</h3><p>Improve livestock health and productivity.</p></div>
-      <div class="card"><i class="fa-solid fa-leaf"></i><h3>Sustainable Practices</h3><p>Promote eco-friendly farming methods.</p></div>
-      <div class="card"><i class="fa-solid fa-people-group"></i><h3>Community Empowerment</h3><p>Engage locals in decision-making.</p></div>
+      <div class="card"><i class="fa-solid fa-leaf"></i><h3>Sustainability</h3><p>Promote eco-friendly farming methods.</p></div>
+      <div class="card"><i class="fa-solid fa-people-group"></i><h3>Empowering Communities</h3><p>Engage locals in meaningful decision-making.</p></div>
     </div>
   </section>
 
-  <section id="contact" class="contact">
+  <section id="contact">
     <h2>Contact Us</h2>
     <div class="contact-wrapper">
       <div class="contact-form">
@@ -77,7 +73,7 @@
         <p><strong>Email:</strong> info@krtech.org</p>
         <p><strong>Phone:</strong> +254 713 525 947</p>
         <div class="map-container">
-          <iframe
+          <iframe 
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63805.49130454437!2d36.6888333!3d1.0966666999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1780bbf64f65dd03%3A0x2f3d9a9a8c9f02d9!2sMaralal!5e0!3m2!1sen!2ske!4v1688490000000!5m2!1sen!2ske"
             width="100%" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
           </iframe>
@@ -86,30 +82,24 @@
     </div>
   </section>
 
-  <footer>
-    <p>&copy; 2025 Krtech CBO. All Rights Reserved.</p>
-  </footer>
+  <div class="navbar">
+    <p>&copy; 2025 Krtech CBO. All Rights Reserved. <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">LinkedIn</a></p>
+  </div>
 
-  <a id="whatsappBtn" class="whatsapp-float" target="_blank" title="Chat with us on WhatsApp">
+  <a id="whatsappBtn" class="whatsapp-float" target="_blank" title="Chat on WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
 
   <script>
-    document.getElementById('whatsappBtn').href = 
+    document.getElementById('whatsappBtn').href =
       'https://wa.me/254713525947?text=' + encodeURIComponent('Hello Krtech, I would like more information.');
-    document.getElementById('contactForm').addEventListener('submit', async function(e) {
+    document.getElementById('contactForm').addEventListener('submit', async e => {
       e.preventDefault();
       const responseElem = document.getElementById('formResponse');
-      const data = new FormData(this);
-      try {
-        const res = await fetch(this.action, {
-          method: 'POST', body: data, headers: { 'Accept': 'application/json' }
-        });
-        responseElem.textContent = res.ok ? '✅ Message sent!' : '❌ Error sending message.';
-      } catch {
-        responseElem.textContent = '❌ Network error.';
-      }
+      const res = await fetch(e.target.action, { method:'POST', body:new FormData(e.target), headers:{'Accept':'application/json'} });
+      responseElem.textContent = res.ok ? '✅ Message sent!' : '❌ Something went wrong.';
     });
   </script>
+
 </body>
 </html>
