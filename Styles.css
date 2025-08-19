@@ -143,6 +143,11 @@ section {
   gap: 1rem;
 }
 
+.contact-info i {
+  margin-right: 0.5rem;
+  color: #2c5530; /* match your headings */
+}
+
 .contact input, 
 .contact textarea {
   padding: 0.8rem;
@@ -220,4 +225,5 @@ footer a:hover {
     font-size: 2rem;
   }
 }
+
 
