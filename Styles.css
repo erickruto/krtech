@@ -224,6 +224,14 @@ footer a:hover {
   .hero h1 {
     font-size: 2rem;
   }
+  .hero h1 {
+  color: #f0c808; /* Golden yellow */
 }
+
+.hero p {
+  color: #ffffff; /* White */
+}
+}
+
 
 
