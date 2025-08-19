@@ -130,6 +130,14 @@ section {
   gap: 2rem;
 }
 
+/* Map container */
+.map-container {
+  margin-top: 1.5rem;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
 .contact form {
   display: grid;
   gap: 1rem;
@@ -212,3 +220,4 @@ footer a:hover {
     font-size: 2rem;
   }
 }
+
